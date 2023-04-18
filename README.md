@@ -12,6 +12,8 @@ http://localhost:8080 in your browser.
 You can also import the project to your IDE of choice as you would with any
 Maven project.
 
+Live demo: [v-herd.eu/my-hilla-app/](https://v-herd.eu/my-hilla-app/).
+
 ## Deploying to Production
 
 To create a production build, call `mvnw clean package -Pproduction` (Windows),
