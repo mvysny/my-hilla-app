@@ -39,5 +39,5 @@ export const routes: readonly ViewRouteObject[] = [
   },
 ];
 
-const router = createBrowserRouter([...routes], {basename: "/my-hilla-app" });
+const router = createBrowserRouter([...routes], {basename: new URL(document.baseURI).pathname });
 export default router;
